@@ -6,6 +6,9 @@
   "repository": "git@github.com:titouancreach/eeglui.git",
   "author": "titouan <titouan.creach@eegle.io>",
   "license": "MIT",
+  "scripts": {
+    "dev": "parcel ./examples/index.html"
+  },
   "dependencies": {
     "babel-helper-vue-jsx-merge-props": "^2.0.3",
     "babel-plugin-syntax-jsx": "^6.18.0",
@@ -14,6 +17,7 @@
     "babel-preset-stage-0": "^6.24.1",
     "parcel-bundler": "^1.6.2",
     "vue": "^2.5.16",
+    "vue-hoc": "^0.3.1",
     "vue-template-compiler": "^2.5.16",
     "vuetify": "^1.0.10"
   }

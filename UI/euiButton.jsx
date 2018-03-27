@@ -1,6 +1,10 @@
+import {withStyle} from '../HOC/withStyle.js';
+import {withProps} from '../HOC/withProps.js';
+import {compose} from '../helpers/compose.js';
 
-export default {
-  render(h) {
-    return <v-button>TOTO</v-button>
-  }
-};
+const enhance = compose(
+  withStyle({}),
+  withProps({round: true, color: 'secondary'})
+);
+
+export default enhance('v-btn');
