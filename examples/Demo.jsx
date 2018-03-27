@@ -1,4 +1,4 @@
-import {euiButton} from '../dist/eeglui.js';
+import {euiButton} from '../build/eeglui.js';
 export default {
   components: {
     euiButton
