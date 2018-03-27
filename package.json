@@ -2,12 +2,13 @@
   "name": "eeglui",
   "version": "1.0.0",
   "description": "Set of components built on top of vuetify",
-  "main": "index.js",
+  "main": "./build/eeglui.js",
   "repository": "git@github.com:titouancreach/eeglui.git",
   "author": "titouan <titouan.creach@eegle.io>",
   "license": "MIT",
   "scripts": {
-    "dev": "parcel ./examples/index.html"
+    "dev": "parcel ./examples/index.html",
+    "build": "microbundle ./index.js -o ./build"
   },
   "dependencies": {
     "babel-helper-vue-jsx-merge-props": "^2.0.3",

@@ -1,3 +1,3 @@
-import EuiButton from './UI/euiButton.jsx';
+import euiButton from './UI/euiButton.jsx';
 
-export {EuiButton};
+export {euiButton};
