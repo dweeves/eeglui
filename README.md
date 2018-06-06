@@ -1,3 +1,8 @@
+# Deprecated
+I won't maintain this repository anymore. Feel free to fork it if needed.
+
+
+
 # eeglui
 Set of graphical/HOC components built on top of vuetify 
 
